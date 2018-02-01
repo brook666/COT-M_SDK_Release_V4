@@ -1,0 +1,10 @@
+---- PATH_SX1280 Matches (9 in 3 files) ----
+gpio.c (midle\gpio):    if( 0 == file->count && strncmp(file->path,PATH_SX1280,4) == 0 )
+gpio.c (midle\gpio):    if( strncmp(file->path,PATH_SX1280,4) == 0 )
+gpio.c (midle\gpio):        strncmp(file->path,PATH_SX1280,4) != 0 )
+gpio.c (midle\gpio):        strncmp(file->path,PATH_SX1280,4) != 0 )
+gpio.c (midle\gpio):        strncmp(file->path,PATH_SX1280,4) != 0 )
+gpio.c (midle\gpio):	PATH_SX1280,  	    /* path */
+gpio.h (midle\gpio):#define PATH_SX1280     ("sx1280")    /*!< sx1280 */
+sx1280-hal.cpp (2.4gstack):    sx1280_chip_gpio_fd = open(PATH_SX1280,0);
+sx1280-hal.cpp (2.4gstack):    sx1280_chip_gpio_fd = open(PATH_SX1280,0);

@@ -1,0 +1,33 @@
+
+T1E1C 000:248 SEGGER J-Link V6.12c Log File (0000ms, 0030ms total)
+T1E1C 000:248 DLL Compiled: Dec 16 2016 17:24:18 (0000ms, 0030ms total)
+T1E1C 000:248 Logging started @ 2017-12-18 15:52 (0000ms, 0030ms total)
+T1E1C 000:249 JLINK_SetWarnOutHandler(...) (0000ms, 0031ms total)
+T1E1C 000:249 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20090928
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFullWEBSRV Webserver running on local port 19080 (0011ms, 0042ms total)
+T1E1C 000:249   returns O.K. (0011ms, 0042ms total)
+T1E1C 000:260 JLINK_SetErrorOutHandler(...) (0000ms, 0042ms total)
+T1E1C 000:260 JLINK_ExecCommand("ProjectFile = "C:\Users\Administrator\Desktop\COT-M_SDK_Release_V4-11.6\COT-M_SDK_Release_V2\JLinkSettings.ini"", ...). C:\Program Files (x86)\SEGGER\JLink_V612c\JLinkDevices.xml evaluated successfully.Device "APOLLO512" selected.  returns 0x00 (0116ms, 0158ms total)
+T1E1C 000:376 JLINK_ExecCommand("Device = Apollo_512_BGA", ...). Device "APOLLO512" selected.  returns 0x00 (0000ms, 0159ms total)
+T1E1C 000:377 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 0159ms total)
+T1E1C 000:377 JLINK_GetHardwareVersion()  returns 0x11170 (0001ms, 0160ms total)
+T1E1C 000:378 JLINK_GetDLLVersion()  returns 61203 (0000ms, 0160ms total)
+T1E1C 000:378 JLINK_GetFirmwareString(...) (0000ms, 0160ms total)
+T1E1C 000:378 JLINK_GetDLLVersion()  returns 61203 (0000ms, 0160ms total)
+T1E1C 000:378 JLINK_GetCompileDateTime() (0000ms, 0160ms total)
+T1E1C 000:378 JLINK_GetFirmwareString(...) (0000ms, 0160ms total)
+T1E1C 000:378 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0160ms total)
+T1E1C 000:378 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0002ms, 0162ms total)
+T1E1C 000:380 JLINK_SetSpeed(5000) (0001ms, 0163ms total)
+T1E1C 000:381 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0163ms total)
+T1E1C 000:381 JLINK_Reset() >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF> >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF> >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF> >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF> >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF> >0x108 TIF>
+RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>JLINK_GetId() >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>
+RESET (pin 15) high, but should be low. Please check target hardware. >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>  returns 0x00000000 (0872ms, 3444ms total)
+T1E1C 003:663 JLINK_GetId() >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x0D TIF> >0x108 TIF>RESET (pin 15) high, but should be low. Please check target hardware. >0x108 TIF>  returns 0x00000000 (0874ms, 4318ms total)
+T1E1C 004:539 JLINK_GetFirmwareString(...) (0000ms, 4318ms total)
+T1E1C 007:068 JLINK_Close() (0016ms, 4334ms total)
+T1E1C 007:068  (0017ms, 4335ms total)
+T1E1C 007:068 Closed (0017ms, 4335ms total)

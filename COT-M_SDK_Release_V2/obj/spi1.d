@@ -1,0 +1,16 @@
+.\obj\spi1.o: src\midle\spi\spi1.c
+.\obj\spi1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\spi1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\spi1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\spi1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\spi1.o: .\src\include\error.h
+.\obj\spi1.o: .\src\driver\apollo\regs\am_reg_base_addresses.h
+.\obj\spi1.o: .\src\driver\apollo\regs\am_reg_macros.h
+.\obj\spi1.o: .\src\driver\apollo\regs\am_reg_macros_asm.h
+.\obj\spi1.o: .\src\driver\apollo\regs\am_reg_gpio.h
+.\obj\spi1.o: .\src\driver\apollo\regs\am_reg_iomstr.h
+.\obj\spi1.o: .\src\driver\apollo\hal\am_hal_gpio.h
+.\obj\spi1.o: .\src\driver\apollo\hal\am_hal_iom.h
+.\obj\spi1.o: .\src\midle\vfs\vfs.h
+.\obj\spi1.o: src\midle\spi\spi1.h
+.\obj\spi1.o: .\src\driver\apollo\hal\am_hal_pin.h

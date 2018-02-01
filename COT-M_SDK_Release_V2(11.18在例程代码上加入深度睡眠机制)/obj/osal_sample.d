@@ -1,0 +1,16 @@
+.\obj\osal_sample.o: src\app\osal_sample.cpp
+.\obj\osal_sample.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\osal_sample.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\osal_sample.o: .\src\osal\osal.h
+.\obj\osal_sample.o: .\src\osal\osal_mutex.h
+.\obj\osal_sample.o: .\src\driver\apollo\hal\am_hal_interrupt.h
+.\obj\osal_sample.o: .\src\osal\osal_tasks.h
+.\obj\osal_sample.o: .\src\osal\osal_time.h
+.\obj\osal_sample.o: .\src\osal\osal_pwrmgr.h
+.\obj\osal_sample.o: .\src\osal\osal_memory.h
+.\obj\osal_sample.o: .\src\2.4gstack\cot_ranging.h
+.\obj\osal_sample.o: .\src\2.4gstack\cot_mac.h
+.\obj\osal_sample.o: .\src\2.4gstack\rf_param_type_define.h
+.\obj\osal_sample.o: src\app\sample_app.h
+.\obj\osal_sample.o: src\app\sample_sleep_mode.h
+.\obj\osal_sample.o: .\src\module\mt\cot_mt_task.h

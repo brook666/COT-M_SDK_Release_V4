@@ -1,0 +1,16 @@
+.\obj\cot_mt_task.o: src\module\mt\cot_mt_task.c
+.\obj\cot_mt_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\cot_mt_task.o: .\src\osal\osal.h
+.\obj\cot_mt_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\cot_mt_task.o: .\src\osal\osal_mutex.h
+.\obj\cot_mt_task.o: .\src\driver\apollo\hal\am_hal_interrupt.h
+.\obj\cot_mt_task.o: .\src\osal\osal_time.h
+.\obj\cot_mt_task.o: .\src\osal\osal_memory.h
+.\obj\cot_mt_task.o: .\src\midle\usart\uart.h
+.\obj\cot_mt_task.o: .\src\module\log\log.h
+.\obj\cot_mt_task.o: src\module\mt\cot_mt.h
+.\obj\cot_mt_task.o: src\module\mt\cot_mt_uart.h
+.\obj\cot_mt_task.o: src\module\mt\cot_mt_task.h
+.\obj\cot_mt_task.o: src\module\mt\cot_mt_key.h
+.\obj\cot_mt_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\cot_mt_task.o: src\module\mt\cot_mt_led.h

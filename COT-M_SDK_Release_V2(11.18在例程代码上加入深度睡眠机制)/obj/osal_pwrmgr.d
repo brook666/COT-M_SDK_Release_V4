@@ -1,0 +1,10 @@
+.\obj\osal_pwrmgr.o: src\osal\osal_pwrmgr.c
+.\obj\osal_pwrmgr.o: .\src\midle\sleep\sleep.h
+.\obj\osal_pwrmgr.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\osal_pwrmgr.o: src\osal\osal.h
+.\obj\osal_pwrmgr.o: src\osal\osal_mutex.h
+.\obj\osal_pwrmgr.o: .\src\driver\apollo\hal\am_hal_interrupt.h
+.\obj\osal_pwrmgr.o: src\osal\osal_tasks.h
+.\obj\osal_pwrmgr.o: src\osal\osal_tick.h
+.\obj\osal_pwrmgr.o: src\osal\osal_time.h
+.\obj\osal_pwrmgr.o: src\osal\osal_pwrmgr.h

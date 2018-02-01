@@ -1,0 +1,9 @@
+.\obj\osal_tick.o: src\osal\osal_tick.c
+.\obj\osal_tick.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\osal_tick.o: .\src\driver\apollo\hal\am_hal_systick.h
+.\obj\osal_tick.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\osal_tick.o: .\src\midle\timers\hal_timers.h
+.\obj\osal_tick.o: src\osal\osal_tick.h
+.\obj\osal_tick.o: src\osal\osal.h
+.\obj\osal_tick.o: src\osal\osal_mutex.h
+.\obj\osal_tick.o: .\src\driver\apollo\hal\am_hal_interrupt.h

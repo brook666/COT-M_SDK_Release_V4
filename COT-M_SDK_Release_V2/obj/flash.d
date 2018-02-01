@@ -1,0 +1,9 @@
+.\obj\flash.o: src\midle\flash\flash.c
+.\obj\flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\flash.o: .\src\include\error.h
+.\obj\flash.o: .\src\midle\vfs\vfs.h
+.\obj\flash.o: src\midle\flash\flash.h
+.\obj\flash.o: .\src\driver\apollo\hal\am_hal_flash.h
+.\obj\flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

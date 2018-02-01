@@ -1,0 +1,2235 @@
+Dependencies for Project 'COT-M_SDK', Target 'COT-M_SDK': (DO NOT MODIFY !)
+F (.\src\driver\startup\startup_keil.s)(0x5A0BF11C)(--cpu Cortex-M4.fp -g --apcs=interwork -I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include--pd "__UVISION_VERSION SETA 514" --pd "APOLLO_512 SETA 1"--list .\list\startup_keil.lst --xref -o .\obj\startup_keil.o --depend .\obj\startup_keil.d)
+F (.\src\app\osal_sample.cpp)(0x5A0BF120)(--cpp -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\osal_sample.o --omf_browse .\obj\osal_sample.crf --depend .\obj\osal_sample.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\osal\osal.h)(0x5A0BF11F)
+I (.\src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\osal\osal_tasks.h)(0x5A0BF11F)
+I (.\src\osal\osal_time.h)(0x5A0BF11F)
+I (.\src\osal\osal_pwrmgr.h)(0x5A0BF11F)
+I (.\src\osal\osal_memory.h)(0x5A0BF11F)
+I (.\src\2.4gstack\cot_ranging.h)(0x5A0BF11F)
+I (.\src\2.4gstack\cot_mac.h)(0x5A0BF11F)
+I (.\src\2.4gstack\rf_param_type_define.h)(0x5A0BF11F)
+I (src\app\sample_app.h)(0x5A0BF120)
+I (src\app\sample_sleep_mode.h)(0x5A0F825E)
+I (.\src\module\mt\cot_mt_task.h)(0x5A0BF122)
+F (.\src\app\sample_main.cpp)(0x5A0F9C16)(--cpp -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\sample_main.o --omf_browse .\obj\sample_main.crf --depend .\obj\sample_main.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+I (.\src\driver\bsp\am_bsp.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_da14581.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_spiflash.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis2dh12.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_l3gd20h.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis3mdl.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_button.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_bmi160.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_led.h)(0x5A0BF11B)
+I (.\src\driver\bsp\am_bsp_gpio.h)(0x5A0BF11C)
+I (.\src\utils\am_util.h)(0x5A0BF121)
+I (.\src\utils\am_util_cmdline.h)(0x5A0BF121)
+I (.\src\utils\am_util_delay.h)(0x5A0BF121)
+I (.\src\utils\am_util_debug.h)(0x5A0BF121)
+I (.\src\utils\am_util_id.h)(0x5A0BF121)
+I (.\src\utils\am_util_math.h)(0x5A0BF121)
+I (.\src\utils\am_util_plot.h)(0x5A0BF121)
+I (.\src\utils\am_util_ring_buffer.h)(0x5A0BF121)
+I (.\src\utils\am_util_stdio.h)(0x5A0BF121)
+I (.\src\utils\am_util_stopwatch.h)(0x5A0BF121)
+I (.\src\utils\am_util_string.h)(0x5A0BF120)
+I (.\src\utils\am_util_tap_detect.h)(0x5A0BF121)
+I (.\src\utils\am_util_time.h)(0x5A0BF121)
+I (.\src\utils\am_util_stxetx.h)(0x5A0BF121)
+I (.\src\osal\osal.h)(0x5A0BF11F)
+I (.\src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\osal\osal_pwrmgr.h)(0x5A0BF11F)
+I (.\src\osal\osal_tick.h)(0x5A0BF11F)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (.\src\midle\spi\spi.h)(0x5A0BF11A)
+I (.\src\midle\gpio\gpio.h)(0x5A0BF11A)
+I (.\src\midle\flash\flash.h)(0x5A0BF11A)
+I (.\src\midle\usart\uart.h)(0x5A0BF11B)
+I (.\src\midle\rtc\rtc.h)(0x5A0BF11A)
+I (.\src\module\log\log.h)(0x5A0BF122)
+I (.\src\2.4gstack\RfParamConfig.h)(0x5A0BF11F)
+I (.\src\2.4gstack\cot_mac.h)(0x5A0BF11F)
+I (.\src\2.4gstack\rf_param_type_define.h)(0x5A0BF11F)
+I (.\src\2.4gstack\cot_ranging.h)(0x5A0BF11F)
+I (.\src\module\mt\cot_mt_led.h)(0x5A0BF122)
+I (.\src\module\mt\cot_mt_oled.h)(0x5A0BF121)
+I (.\src\midle\spi\spi1.h)(0x5A0BF11A)
+I (src\app\sample_sleep_mode.h)(0x5A0F825E)
+F (.\src\app\sample_multiple_anchor_app.cpp)(0x5A0F9BC7)(--cpp -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\sample_multiple_anchor_app.o --omf_browse .\obj\sample_multiple_anchor_app.crf --depend .\obj\sample_multiple_anchor_app.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\utils\am_util_delay.h)(0x5A0BF121)
+I (.\src\include\error.h)(0x5A0BF121)
+I (.\src\osal\osal.h)(0x5A0BF11F)
+I (.\src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\osal\osal_time.h)(0x5A0BF11F)
+I (.\src\osal\osal_tasks.h)(0x5A0BF11F)
+I (.\src\osal\osal_pwrmgr.h)(0x5A0BF11F)
+I (.\src\midle\gpio\gpio.h)(0x5A0BF11A)
+I (.\src\module\log\log.h)(0x5A0BF122)
+I (.\src\module\datapackage\data_package.h)(0x5A0BF122)
+I (.\src\2.4gstack\rf_param_type_define.h)(0x5A0BF11F)
+I (.\src\2.4gstack\cot_mac.h)(0x5A0BF11F)
+I (.\src\2.4gstack\RfParamConfig.h)(0x5A0BF11F)
+I (.\src\2.4gstack\cot_ranging.h)(0x5A0BF11F)
+I (src\app\af.h)(0x5A0BF120)
+I (.\src\module\mt\cot_mt.h)(0x5A0BF121)
+I (.\src\module\mt\cot_mt_task.h)(0x5A0BF122)
+I (src\app\sample_app.h)(0x5A0BF120)
+I (src\app\sample_sleep_mode.h)(0x5A0F825E)
+I (.\src\midle\timers\hal_timers.h)(0x5A0BF11C)
+F (.\src\module\mt\cot_mt_task.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\cot_mt_task.o --omf_browse .\obj\cot_mt_task.crf --depend .\obj\cot_mt_task.d)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\src\osal\osal.h)(0x5A0BF11F)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\osal\osal_time.h)(0x5A0BF11F)
+I (.\src\osal\osal_memory.h)(0x5A0BF11F)
+I (.\src\midle\usart\uart.h)(0x5A0BF11B)
+I (.\src\module\log\log.h)(0x5A0BF122)
+I (src\module\mt\cot_mt.h)(0x5A0BF121)
+I (src\module\mt\cot_mt_uart.h)(0x5A0BF122)
+I (src\module\mt\cot_mt_task.h)(0x5A0BF122)
+I (src\module\mt\cot_mt_key.h)(0x5A0BF121)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (src\module\mt\cot_mt_led.h)(0x5A0BF122)
+F (.\src\module\mt\cot_mt_uart.c)(0x5A0BF122)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\cot_mt_uart.o --omf_browse .\obj\cot_mt_uart.crf --depend .\obj\cot_mt_uart.d)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\osal\OSAL.h)(0x5A0BF11F)
+I (.\src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\osal\OSAL_Memory.h)(0x5A0BF11F)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (.\src\midle\usart\uart.h)(0x5A0BF11B)
+I (.\src\module\datapackage\base64.h)(0x5A0BF122)
+I (src\module\mt\cot_mt.h)(0x5A0BF121)
+I (src\module\mt\cot_mt_uart.h)(0x5A0BF122)
+F (.\src\module\algorithm\algorithm lib.lib)(0x5A0BF121)()
+F (.\src\module\datapackage\base64.c)(0x5A0BF122)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\base64.o --omf_browse .\obj\base64.crf --depend .\obj\base64.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (src\module\datapackage\base64.h)(0x5A0BF122)
+F (.\src\module\log\log.c)(0x5A0BF122)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\log.o --omf_browse .\obj\log.crf --depend .\obj\log.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\src\utils\am_util_stdio.h)(0x5A0BF121)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (.\src\midle\usart\uart.h)(0x5A0BF11B)
+I (src\module\log\log.h)(0x5A0BF122)
+F (.\src\module\mt\cot_mt_key.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\cot_mt_key.o --omf_browse .\obj\cot_mt_key.crf --depend .\obj\cot_mt_key.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\osal\osal.h)(0x5A0BF11F)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (.\src\midle\gpio\gpio.h)(0x5A0BF11A)
+I (.\src\module\log\log.h)(0x5A0BF122)
+I (src\module\mt\cot_mt.h)(0x5A0BF121)
+I (src\module\mt\cot_mt_key.h)(0x5A0BF121)
+F (.\src\module\mt\cot_mt_led.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\cot_mt_led.o --omf_browse .\obj\cot_mt_led.crf --depend .\obj\cot_mt_led.d)
+I (.\src\osal\osal.h)(0x5A0BF11F)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\osal\osal_tick.h)(0x5A0BF11F)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (.\src\midle\gpio\gpio.h)(0x5A0BF11A)
+I (.\src\module\log\log.h)(0x5A0BF122)
+I (src\module\mt\cot_mt.h)(0x5A0BF121)
+I (src\module\mt\cot_mt_led.h)(0x5A0BF122)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (.\src\module\mt\cot_mt_oled.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\cot_mt_oled.o --omf_browse .\obj\cot_mt_oled.crf --depend .\obj\cot_mt_oled.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\src\osal\OSAL.h)(0x5A0BF11F)
+I (.\src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\osal\OSAL_Memory.h)(0x5A0BF11F)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (.\src\midle\iic\iic.h)(0x5A0BF11C)
+I (.\src\include\error.h)(0x5A0BF121)
+I (src\module\mt\cot_mt_oled.h)(0x5A0BF121)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+I (.\src\driver\bsp\am_bsp.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_da14581.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_spiflash.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis2dh12.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_l3gd20h.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis3mdl.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_button.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_bmi160.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_led.h)(0x5A0BF11B)
+I (.\src\driver\bsp\am_bsp_gpio.h)(0x5A0BF11C)
+I (.\src\utils\am_util.h)(0x5A0BF121)
+I (.\src\utils\am_util_cmdline.h)(0x5A0BF121)
+I (.\src\utils\am_util_delay.h)(0x5A0BF121)
+I (.\src\utils\am_util_debug.h)(0x5A0BF121)
+I (.\src\utils\am_util_id.h)(0x5A0BF121)
+I (.\src\utils\am_util_math.h)(0x5A0BF121)
+I (.\src\utils\am_util_plot.h)(0x5A0BF121)
+I (.\src\utils\am_util_ring_buffer.h)(0x5A0BF121)
+I (.\src\utils\am_util_stdio.h)(0x5A0BF121)
+I (.\src\utils\am_util_stopwatch.h)(0x5A0BF121)
+I (.\src\utils\am_util_string.h)(0x5A0BF120)
+I (.\src\utils\am_util_tap_detect.h)(0x5A0BF121)
+I (.\src\utils\am_util_time.h)(0x5A0BF121)
+I (.\src\utils\am_util_stxetx.h)(0x5A0BF121)
+F (.\src\2.4gstack\RfParamConfig.cpp)(0x5A0BF11F)(--cpp -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\rfparamconfig.o --omf_browse .\obj\rfparamconfig.crf --depend .\obj\rfparamconfig.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\bsp\am_bsp.h)(0x5A0BF11C)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+I (.\src\midle\devices\am_devices.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_da14581.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_spiflash.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis2dh12.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_l3gd20h.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis3mdl.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_button.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_bmi160.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_led.h)(0x5A0BF11B)
+I (.\src\driver\bsp\am_bsp_gpio.h)(0x5A0BF11C)
+I (.\src\include\error.h)(0x5A0BF121)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (.\src\midle\flash\flash.h)(0x5A0BF11A)
+I (src\2.4gstack\RfParamConfig.h)(0x5A0BF11F)
+I (src\2.4gstack\cot_mac.h)(0x5A0BF11F)
+I (.\src\osal\osal.h)(0x5A0BF11F)
+I (.\src\osal\osal_mutex.h)(0x5A0BF11F)
+I (src\2.4gstack\rf_param_type_define.h)(0x5A0BF11F)
+I (src\2.4gstack\cot_ranging.h)(0x5A0BF11F)
+I (.\src\module\log\log.h)(0x5A0BF122)
+F (.\src\2.4gstack\COT-M_SDK_RF_LIB.lib)(0x5A0BF11F)()
+F (.\src\2.4gstack\COT-M_SDK_RANGING_LIB.lib)(0x5A0BF11F)()
+F (.\src\2.4gstack\cot_mac.h)(0x5A0BF11F)()
+F (.\src\osal\osal.c)(0x5A0F93BB)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\osal.o --omf_browse .\obj\osal.crf --depend .\obj\osal.d)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (src\osal\osal.h)(0x5A0BF11F)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (src\osal\osal_tasks.h)(0x5A0BF11F)
+I (src\osal\osal_memory.h)(0x5A0BF11F)
+I (src\osal\osal_tick.h )(0x5A0BF11F)
+I (src\osal\osal_time.h )(0x5A0BF11F)
+I (src\osal\osal_pwrmgr.h)(0x5A0BF11F)
+I (.\src\module\mt\cot_mt_led.h)(0x5A0BF122)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (.\src\osal\osal_memory.c)(0x5A0BF11F)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\osal_memory.o --omf_browse .\obj\osal_memory.crf --depend .\obj\osal_memory.d)
+I (src\osal\osal.h)(0x5A0BF11F)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (src\osal\osal_memory.h)(0x5A0BF11F)
+F (.\src\osal\osal_mutex.c)(0x5A0BF11F)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\osal_mutex.o --omf_browse .\obj\osal_mutex.crf --depend .\obj\osal_mutex.d)
+I (src\osal\osal.h)(0x5A0BF11F)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (src\osal\osal_memory.h)(0x5A0BF11F)
+F (.\src\osal\osal_tick.c)(0x5A0BF11F)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\osal_tick.o --omf_browse .\obj\osal_tick.crf --depend .\obj\osal_tick.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\midle\timers\hal_timers.h)(0x5A0BF11C)
+I (src\osal\osal_tick.h)(0x5A0BF11F)
+I (src\osal\osal.h)(0x5A0BF11F)
+I (src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+F (.\src\osal\osal_time.c)(0x5A0BF11F)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\osal_time.o --omf_browse .\obj\osal_time.crf --depend .\obj\osal_time.d)
+I (src\osal\OSAL.h)(0x5A0BF11F)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (src\osal\osal_time.h)(0x5A0BF11F)
+I (src\osal\osal_memory.h)(0x5A0BF11F)
+I (src\osal\osal_tick.h)(0x5A0BF11F)
+F (.\src\osal\osal_pwrmgr.c)(0x5A0F8FFB)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\osal_pwrmgr.o --omf_browse .\obj\osal_pwrmgr.crf --depend .\obj\osal_pwrmgr.d)
+I (.\src\midle\sleep\sleep.h)(0x5A0BF11A)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (src\osal\osal.h)(0x5A0BF11F)
+I (src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (src\osal\osal_tasks.h)(0x5A0BF11F)
+I (src\osal\osal_tick.h)(0x5A0BF11F)
+I (src\osal\osal_time.h)(0x5A0BF11F)
+I (src\osal\osal_pwrmgr.h)(0x5A0BF11F)
+F (.\src\utils\am_util_cmdline.c)(0x5A0BF120)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_cmdline.o --omf_browse .\obj\am_util_cmdline.crf --depend .\obj\am_util_cmdline.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (src\utils\am_util_cmdline.h)(0x5A0BF121)
+I (src\utils\am_util_string.h)(0x5A0BF120)
+F (.\src\utils\am_util_debug.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_debug.o --omf_browse .\obj\am_util_debug.crf --depend .\obj\am_util_debug.d)
+I (src\utils\am_util_debug.h)(0x5A0BF121)
+F (.\src\utils\am_util_delay.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_delay.o --omf_browse .\obj\am_util_delay.crf --depend .\obj\am_util_delay.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\hal/am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal/am_hal_flash.h)(0x5A0BF11E)
+I (src\utils\am_util_delay.h)(0x5A0BF121)
+F (.\src\utils\am_util_faultisr.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_faultisr.o --omf_browse .\obj\am_util_faultisr.crf --depend .\obj\am_util_faultisr.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\module\log\log.h)(0x5A0BF122)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\utils\am_util_math.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_math.o --omf_browse .\obj\am_util_math.crf --depend .\obj\am_util_math.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (src\utils\am_util_math.h)(0x5A0BF121)
+F (.\src\utils\am_util_plot.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_plot.o --omf_browse .\obj\am_util_plot.crf --depend .\obj\am_util_plot.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (.\src\driver\apollo\hal/am_hal_itm.h)(0x5A0BF11E)
+I (src\utils\am_util_stdio.h)(0x5A0BF121)
+I (src\utils\am_util_plot.h)(0x5A0BF121)
+F (.\src\utils\am_util_ring_buffer.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_ring_buffer.o --omf_browse .\obj\am_util_ring_buffer.crf --depend .\obj\am_util_ring_buffer.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (src\utils\am_util_ring_buffer.h)(0x5A0BF121)
+F (.\src\utils\am_util_stdio.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_stdio.o --omf_browse .\obj\am_util_stdio.crf --depend .\obj\am_util_stdio.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (src\utils\am_util_stdio.h)(0x5A0BF121)
+F (.\src\utils\am_util_stopwatch.c)(0x5A0BF120)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_stopwatch.o --omf_browse .\obj\am_util_stopwatch.crf --depend .\obj\am_util_stopwatch.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (.\src\driver\apollo\hal/am_hal_rtc.h)(0x5A0BF11E)
+I (src\utils\am_util_stopwatch.h)(0x5A0BF121)
+F (.\src\utils\am_util_string.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_string.o --omf_browse .\obj\am_util_string.crf --depend .\obj\am_util_string.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (src\utils\am_util_string.h)(0x5A0BF120)
+F (.\src\utils\am_util_stxetx.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_stxetx.o --omf_browse .\obj\am_util_stxetx.crf --depend .\obj\am_util_stxetx.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+I (.\src\utils\am_util.h)(0x5A0BF121)
+I (.\src\utils\am_util_cmdline.h)(0x5A0BF121)
+I (.\src\utils\am_util_delay.h)(0x5A0BF121)
+I (.\src\utils\am_util_debug.h)(0x5A0BF121)
+I (.\src\utils\am_util_id.h)(0x5A0BF121)
+I (.\src\utils\am_util_math.h)(0x5A0BF121)
+I (.\src\utils\am_util_plot.h)(0x5A0BF121)
+I (.\src\utils\am_util_ring_buffer.h)(0x5A0BF121)
+I (.\src\utils\am_util_stdio.h)(0x5A0BF121)
+I (.\src\utils\am_util_stopwatch.h)(0x5A0BF121)
+I (.\src\utils\am_util_string.h)(0x5A0BF120)
+I (.\src\utils\am_util_tap_detect.h)(0x5A0BF121)
+I (.\src\utils\am_util_time.h)(0x5A0BF121)
+I (.\src\utils\am_util_stxetx.h)(0x5A0BF121)
+F (.\src\utils\am_util_tap_detect.c)(0x5A0BF120)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_tap_detect.o --omf_browse .\obj\am_util_tap_detect.crf --depend .\obj\am_util_tap_detect.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (.\src\utils\am_util_tap_detect.h)(0x5A0BF121)
+F (.\src\utils\am_util_time.c)(0x5A0BF121)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_util_time.o --omf_browse .\obj\am_util_time.crf --depend .\obj\am_util_time.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (src\utils\am_util_time.h)(0x5A0BF121)
+F (.\src\midle\vfs\COT-M_SDK_VFS_LIB.lib)(0x5A0BF11B)()
+F (.\src\midle\timers\hal_timers.c)(0x5A0BF11C)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\hal_timers.o --omf_browse .\obj\hal_timers.crf --depend .\obj\hal_timers.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\utils\am_util_delay.h)(0x5A0BF121)
+I (src\midle\timers\hal_timers.h)(0x5A0BF11C)
+F (.\src\midle\usart\uart.c)(0x5A0BF11B)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\src\include\error.h)(0x5A0BF121)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\bsp\am_bsp.h)(0x5A0BF11C)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+I (.\src\midle\devices\am_devices.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_da14581.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_spiflash.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis2dh12.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_l3gd20h.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis3mdl.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_button.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_bmi160.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_led.h)(0x5A0BF11B)
+I (.\src\driver\bsp\am_bsp_gpio.h)(0x5A0BF11C)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (src\midle\usart\uart.h)(0x5A0BF11B)
+F (.\src\midle\flash\flash.c)(0x5A0BF11A)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\flash.o --omf_browse .\obj\flash.crf --depend .\obj\flash.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\src\include\error.h)(0x5A0BF121)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (src\midle\flash\flash.h)(0x5A0BF11A)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (.\src\midle\spi\spi.c)(0x5A0BF11A)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\spi.o --omf_browse .\obj\spi.crf --depend .\obj\spi.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\src\include\error.h)(0x5A0BF121)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (src\midle\spi\spi.h)(0x5A0BF11A)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+F (.\src\midle\gpio\gpio.c)(0x5A0BF11B)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\include\error.h)(0x5A0BF121)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (src\midle\gpio\gpio.h)(0x5A0BF11A)
+F (.\src\midle\rtc\rtc.c)(0x5A0BF11A)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\rtc.o --omf_browse .\obj\rtc.crf --depend .\obj\rtc.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\include\error.h)(0x5A0BF121)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (src\midle\rtc\rtc.h)(0x5A0BF11A)
+F (.\src\midle\adc\adc.c)(0x5A0BF11A)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\adc.o --omf_browse .\obj\adc.crf --depend .\obj\adc.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\src\osal\OSAL.h)(0x5A0BF11F)
+I (.\src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\osal\OSAL_Memory.h)(0x5A0BF11F)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (.\src\midle\spi\spi1.h)(0x5A0BF11A)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\include\error.h)(0x5A0BF121)
+I (.\src\module\log\log.h)(0x5A0BF122)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+I (.\src\driver\bsp\am_bsp.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_da14581.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_spiflash.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis2dh12.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_l3gd20h.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis3mdl.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_button.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_bmi160.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_led.h)(0x5A0BF11B)
+I (.\src\driver\bsp\am_bsp_gpio.h)(0x5A0BF11C)
+I (.\src\utils\am_util.h)(0x5A0BF121)
+I (.\src\utils\am_util_cmdline.h)(0x5A0BF121)
+I (.\src\utils\am_util_delay.h)(0x5A0BF121)
+I (.\src\utils\am_util_debug.h)(0x5A0BF121)
+I (.\src\utils\am_util_id.h)(0x5A0BF121)
+I (.\src\utils\am_util_math.h)(0x5A0BF121)
+I (.\src\utils\am_util_plot.h)(0x5A0BF121)
+I (.\src\utils\am_util_ring_buffer.h)(0x5A0BF121)
+I (.\src\utils\am_util_stdio.h)(0x5A0BF121)
+I (.\src\utils\am_util_stopwatch.h)(0x5A0BF121)
+I (.\src\utils\am_util_string.h)(0x5A0BF120)
+I (.\src\utils\am_util_tap_detect.h)(0x5A0BF121)
+I (.\src\utils\am_util_time.h)(0x5A0BF121)
+I (.\src\utils\am_util_stxetx.h)(0x5A0BF121)
+I (src\midle\adc\adc.h)(0x5A0BF11A)
+F (.\src\midle\sleep\sleep.c)(0x5A0F95D8)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\sleep.o --omf_browse .\obj\sleep.crf --depend .\obj\sleep.d)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\utils\am_util_delay.h)(0x5A0BF121)
+I (.\src\osal\osal.h)(0x5A0BF11F)
+I (.\src\osal\osal_mutex.h)(0x5A0BF11F)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (.\src\midle\rtc\rtc.h)(0x5A0BF11A)
+I (src\midle\sleep\sleep.h)(0x5A0BF11A)
+I (.\src\app\sample_app.h)(0x5A0BF120)
+I (.\src\app\sample_sleep_mode.h)(0x5A0F825E)
+I (.\src\osal\osal_pwrmgr.h)(0x5A0BF11F)
+I (.\src\2.4gstack\cot_mac.h)(0x5A0BF11F)
+I (.\src\2.4gstack\rf_param_type_define.h)(0x5A0BF11F)
+F (.\src\midle\iic\iic.c)(0x5A0BF11C)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\iic.o --omf_browse .\obj\iic.crf --depend .\obj\iic.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\include\error.h)(0x5A0BF121)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (src\midle\iic\iic.h)(0x5A0BF11C)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+I (.\src\driver\bsp\am_bsp.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_da14581.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_spiflash.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis2dh12.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_l3gd20h.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis3mdl.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_button.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_bmi160.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_led.h)(0x5A0BF11B)
+I (.\src\driver\bsp\am_bsp_gpio.h)(0x5A0BF11C)
+I (.\src\utils\am_util.h)(0x5A0BF121)
+I (.\src\utils\am_util_cmdline.h)(0x5A0BF121)
+I (.\src\utils\am_util_delay.h)(0x5A0BF121)
+I (.\src\utils\am_util_debug.h)(0x5A0BF121)
+I (.\src\utils\am_util_id.h)(0x5A0BF121)
+I (.\src\utils\am_util_math.h)(0x5A0BF121)
+I (.\src\utils\am_util_plot.h)(0x5A0BF121)
+I (.\src\utils\am_util_ring_buffer.h)(0x5A0BF121)
+I (.\src\utils\am_util_stdio.h)(0x5A0BF121)
+I (.\src\utils\am_util_stopwatch.h)(0x5A0BF121)
+I (.\src\utils\am_util_string.h)(0x5A0BF120)
+I (.\src\utils\am_util_tap_detect.h)(0x5A0BF121)
+I (.\src\utils\am_util_time.h)(0x5A0BF121)
+I (.\src\utils\am_util_stxetx.h)(0x5A0BF121)
+F (.\src\midle\spi\spi1.c)(0x5A0BF11A)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\spi1.o --omf_browse .\obj\spi1.crf --depend .\obj\spi1.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\src\include\error.h)(0x5A0BF121)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\midle\vfs\vfs.h)(0x5A0BF11B)
+I (src\midle\spi\spi1.h)(0x5A0BF11A)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+F (.\src\driver\bsp\am_bsp.c)(0x5A0BF11C)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_bsp.o --omf_browse .\obj\am_bsp.crf --depend .\obj\am_bsp.d)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+I (src\driver\bsp\am_bsp.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_da14581.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_spiflash.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis2dh12.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_l3gd20h.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_lis3mdl.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_button.h)(0x5A0BF11B)
+I (.\src\midle\devices\am_devices_bmi160.h)(0x5A0BF11C)
+I (.\src\midle\devices\am_devices_led.h)(0x5A0BF11B)
+I (src\driver\bsp\am_bsp_gpio.h)(0x5A0BF11C)
+F (.\src\driver\apollo\hal\am_hal_adc.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_adc.o --omf_browse .\obj\am_hal_adc.crf --depend .\obj\am_hal_adc.d)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_clkgen.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_clkgen.o --omf_browse .\obj\am_hal_clkgen.crf --depend .\obj\am_hal_clkgen.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_ctimer.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_ctimer.o --omf_browse .\obj\am_hal_ctimer.crf --depend .\obj\am_hal_ctimer.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_debug.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_debug.o --omf_browse .\obj\am_hal_debug.crf --depend .\obj\am_hal_debug.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_flash.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_flash.o --omf_browse .\obj\am_hal_flash.crf --depend .\obj\am_hal_flash.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_global.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_global.o --omf_browse .\obj\am_hal_global.crf --depend .\obj\am_hal_global.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_gpio.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_gpio.o --omf_browse .\obj\am_hal_gpio.crf --depend .\obj\am_hal_gpio.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_i2c_bit_bang.o --omf_browse .\obj\am_hal_i2c_bit_bang.crf --depend .\obj\am_hal_i2c_bit_bang.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+I (.\src\utils\am_util.h)(0x5A0BF121)
+I (.\src\utils\am_util_cmdline.h)(0x5A0BF121)
+I (.\src\utils\am_util_delay.h)(0x5A0BF121)
+I (.\src\utils\am_util_debug.h)(0x5A0BF121)
+I (.\src\utils\am_util_id.h)(0x5A0BF121)
+I (.\src\utils\am_util_math.h)(0x5A0BF121)
+I (.\src\utils\am_util_plot.h)(0x5A0BF121)
+I (.\src\utils\am_util_ring_buffer.h)(0x5A0BF121)
+I (.\src\utils\am_util_stdio.h)(0x5A0BF121)
+I (.\src\utils\am_util_stopwatch.h)(0x5A0BF121)
+I (.\src\utils\am_util_string.h)(0x5A0BF120)
+I (.\src\utils\am_util_tap_detect.h)(0x5A0BF121)
+I (.\src\utils\am_util_time.h)(0x5A0BF121)
+I (.\src\utils\am_util_stxetx.h)(0x5A0BF121)
+F (.\src\driver\apollo\hal\am_hal_interrupt.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_interrupt.o --omf_browse .\obj\am_hal_interrupt.crf --depend .\obj\am_hal_interrupt.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_iom.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_iom.o --omf_browse .\obj\am_hal_iom.crf --depend .\obj\am_hal_iom.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_ios.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_ios.o --omf_browse .\obj\am_hal_ios.crf --depend .\obj\am_hal_ios.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_itm.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_itm.o --omf_browse .\obj\am_hal_itm.crf --depend .\obj\am_hal_itm.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_mcuctrl.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_mcuctrl.o --omf_browse .\obj\am_hal_mcuctrl.crf --depend .\obj\am_hal_mcuctrl.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_otp.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_otp.o --omf_browse .\obj\am_hal_otp.crf --depend .\obj\am_hal_otp.d)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_queue.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_queue.o --omf_browse .\obj\am_hal_queue.crf --depend .\obj\am_hal_queue.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_reset.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_reset.o --omf_browse .\obj\am_hal_reset.crf --depend .\obj\am_hal_reset.d)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_rtc.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_rtc.o --omf_browse .\obj\am_hal_rtc.crf --depend .\obj\am_hal_rtc.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_sysctrl.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_sysctrl.o --omf_browse .\obj\am_hal_sysctrl.crf --depend .\obj\am_hal_sysctrl.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_systick.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_systick.o --omf_browse .\obj\am_hal_systick.crf --depend .\obj\am_hal_systick.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+I (.\src\utils\am_util_delay.h)(0x5A0BF121)
+F (.\src\driver\apollo\hal\am_hal_tpiu.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_tpiu.o --omf_browse .\obj\am_hal_tpiu.crf --depend .\obj\am_hal_tpiu.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_uart.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_uart.o --omf_browse .\obj\am_hal_uart.crf --depend .\obj\am_hal_uart.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_vcomp.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_vcomp.o --omf_browse .\obj\am_hal_vcomp.crf --depend .\obj\am_hal_vcomp.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\src\driver\apollo\hal\am_hal_wdt.c)(0x5A0BF11E)(--c99 -c --cpu Cortex-M4.fp -g -O0 -Otime --apcs=interwork --split_sections -I.\src\include -I.\src\driver\startup -I.\src\driver\apollo -I.\src\driver\bsp -I.\src\midle -I.\src\2.4gstack -I.\src\utils -I.\src\osal -I.\src\module -I.\src\app -I.\src\driver\apollo\hal -I.\src\driver\apollo\regs -I.\src\midle\devices -I.\src\midle\sleep -I.\src\midle\timers -I.\src\midle\vfs -I.\src\midle\usart -I.\src\midle\flash -I.\src\midle\spi -I.\src\midle\gpio -I.\src\module\log -I.\src\module\datapackage -I.\src\midle\rtc -I.\src\module\mt -I.\src\midle\iic-I C:\Users\Administrator\Desktop\COT-M_SDK_Release_V2\RTE-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2-I D:\keil\ARM\CMSIS\Include-I D:\keil\ARM\PACK\AmbiqMicro\Apollo_DFP\0.9.2\Device\Include-D__UVISION_VERSION="514" -DAPOLLO_512 -DAM_PACKAGE_BGA -Dkeil -DAM_UTIL_FAULTISR_PRINT-o .\obj\am_hal_wdt.o --omf_browse .\obj\am_hal_wdt.crf --depend .\obj\am_hal_wdt.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (.\src\driver\apollo\am_mcu_apollo.h)(0x5A0BF11D)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (.\src\driver\apollo\regs\am_reg_adc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_base_addresses.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_clkgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ctimer.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_gpio.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_iomstr.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_ioslave.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_itm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_jedec.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_macros_asm.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_mcuctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_nvic.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rtc.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_rstgen.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_sysctrl.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_systick.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_tpiu.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_uart.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_vcomp.h)(0x5A0BF11D)
+I (.\src\driver\apollo\regs\am_reg_wdt.h)(0x5A0BF11D)
+I (.\src\driver\apollo\hal\am_hal_adc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_cachectrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_clkgen.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ctimer.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_debug.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_flash.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_global.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_gpio.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_i2c_bit_bang.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_interrupt.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_iom.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_ios.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_itm.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_mcuctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_otp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pin.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_pwrctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_queue.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_reset.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_rtc.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_sysctrl.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_systick.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_tpiu.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_uart.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_vcomp.h)(0x5A0BF11E)
+I (.\src\driver\apollo\hal\am_hal_wdt.h)(0x5A0BF11E)
+F (.\readme.txt)(0x5A0BF122)()

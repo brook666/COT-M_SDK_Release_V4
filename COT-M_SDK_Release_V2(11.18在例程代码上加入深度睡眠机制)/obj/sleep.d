@@ -1,0 +1,17 @@
+.\obj\sleep.o: src\midle\sleep\sleep.c
+.\obj\sleep.o: .\src\driver\apollo\hal\am_hal_sysctrl.h
+.\obj\sleep.o: D:\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\sleep.o: .\src\driver\apollo\hal\am_hal_systick.h
+.\obj\sleep.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\sleep.o: .\src\utils\am_util_delay.h
+.\obj\sleep.o: .\src\osal\osal.h
+.\obj\sleep.o: .\src\osal\osal_mutex.h
+.\obj\sleep.o: .\src\driver\apollo\hal\am_hal_interrupt.h
+.\obj\sleep.o: .\src\midle\vfs\vfs.h
+.\obj\sleep.o: .\src\midle\rtc\rtc.h
+.\obj\sleep.o: src\midle\sleep\sleep.h
+.\obj\sleep.o: .\src\app\sample_app.h
+.\obj\sleep.o: .\src\app\sample_sleep_mode.h
+.\obj\sleep.o: .\src\osal\osal_pwrmgr.h
+.\obj\sleep.o: .\src\2.4gstack\cot_mac.h
+.\obj\sleep.o: .\src\2.4gstack\rf_param_type_define.h

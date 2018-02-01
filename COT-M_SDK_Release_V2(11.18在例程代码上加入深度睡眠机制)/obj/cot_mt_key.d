@@ -1,0 +1,12 @@
+.\obj\cot_mt_key.o: src\module\mt\cot_mt_key.c
+.\obj\cot_mt_key.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\cot_mt_key.o: D:\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\cot_mt_key.o: .\src\osal\osal.h
+.\obj\cot_mt_key.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\cot_mt_key.o: .\src\osal\osal_mutex.h
+.\obj\cot_mt_key.o: .\src\driver\apollo\hal\am_hal_interrupt.h
+.\obj\cot_mt_key.o: .\src\midle\vfs\vfs.h
+.\obj\cot_mt_key.o: .\src\midle\gpio\gpio.h
+.\obj\cot_mt_key.o: .\src\module\log\log.h
+.\obj\cot_mt_key.o: src\module\mt\cot_mt.h
+.\obj\cot_mt_key.o: src\module\mt\cot_mt_key.h

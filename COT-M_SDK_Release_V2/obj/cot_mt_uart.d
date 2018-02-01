@@ -1,0 +1,12 @@
+.\obj\cot_mt_uart.o: src\module\mt\cot_mt_uart.c
+.\obj\cot_mt_uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\cot_mt_uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\cot_mt_uart.o: .\src\osal\OSAL.h
+.\obj\cot_mt_uart.o: .\src\osal\osal_mutex.h
+.\obj\cot_mt_uart.o: .\src\driver\apollo\hal\am_hal_interrupt.h
+.\obj\cot_mt_uart.o: .\src\osal\OSAL_Memory.h
+.\obj\cot_mt_uart.o: .\src\midle\vfs\vfs.h
+.\obj\cot_mt_uart.o: .\src\midle\usart\uart.h
+.\obj\cot_mt_uart.o: .\src\module\datapackage\base64.h
+.\obj\cot_mt_uart.o: src\module\mt\cot_mt.h
+.\obj\cot_mt_uart.o: src\module\mt\cot_mt_uart.h

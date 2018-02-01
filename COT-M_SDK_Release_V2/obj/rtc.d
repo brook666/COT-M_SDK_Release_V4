@@ -1,0 +1,13 @@
+.\obj\rtc.o: src\midle\rtc\rtc.c
+.\obj\rtc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\rtc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\rtc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\rtc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\rtc.o: .\src\driver\apollo\regs\am_reg_clkgen.h
+.\obj\rtc.o: .\src\driver\apollo\hal\am_hal_clkgen.h
+.\obj\rtc.o: .\src\driver\apollo\regs\am_reg_rtc.h
+.\obj\rtc.o: .\src\driver\apollo\hal\am_hal_rtc.h
+.\obj\rtc.o: .\src\driver\apollo\hal\am_hal_interrupt.h
+.\obj\rtc.o: .\src\include\error.h
+.\obj\rtc.o: .\src\midle\vfs\vfs.h
+.\obj\rtc.o: src\midle\rtc\rtc.h
